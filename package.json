@@ -1,0 +1,16 @@
+{
+  "name": "watermark-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for selling watermark MP4 files with Stars",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "admin": "node admin.js"
+  },
+  "dependencies": {
+    "grammy": "^1.21.0",
+    "better-sqlite3": "^9.4.3",
+    "dotenv": "^16.4.1"
+  }
+}
